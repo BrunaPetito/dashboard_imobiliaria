@@ -1,0 +1,58 @@
+/* Fundo em degradê roxo */
+.stApp {
+  background: radial-gradient(1200px 500px at 0% 0%, #4d2274 0%, #6a3aa5 30%, #7b49b4 60%, #3e1d63 100%);
+  color: #F4F2FF;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: #F7F3FF !important;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Casinha animada */
+.house {
+  display: inline-block;
+  font-size: 2.2rem;
+  margin-right: 10px;
+  animation: shake 1.5s infinite;
+}
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* Cartões KPI */
+.kpi {
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(186, 161, 240, 0.25), rgba(255,255,255,0.06));
+  padding: 16px 18px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  border: 1px solid rgba(255,255,255,0.12);
+  margin-bottom: 12px;
+  text-align: center;
+}
+.kpi .label {
+  font-size: 0.9rem;
+  color: #eae2ff;
+  opacity: 0.95;
+}
+.kpi .value {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+/* Blocos */
+.block {
+  border-radius: 18px;
+  background: rgba(255,255,255,0.06);
+  padding: 16px;
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  margin-bottom: 20px;
+}
